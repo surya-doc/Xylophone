@@ -26,7 +26,7 @@ background-size: cover;
   /* border-width:20px; */
   border-bottom: solid white 2px;
   /* border:white solid; */
-  font-size:70px;
+  font-size: 285%;
   text-align: center;
   padding:2%;
   font-weight: 1000;
@@ -37,19 +37,55 @@ background-size: cover;
 
 }
 
+@media only screen and (max-width: 500px){
+  #title{
+    /* box-sizing: border-box; */
+    margin:auto;
+    margin-top:2%;
+    width:40%;
+    /* border-radius: 20px; */
+    /* border-width:20px; */
+    border-bottom: solid white 2px;
+    /* border:white solid; */
+    font-size: 225%;
+    text-align: center;
+    padding:2%;
+    font-weight: 1000;
+    color:white;
+    text-shadow: 2px 2px 8px #FF0000;
+  
+    font-family: 'Great Vibes', cursive;
+  
+  }
+}
+
 .stitle{
   /* box-sizing: border-box; */
   font-family: 'Shadows Into Light', cursive;
 
   width:50%;
   margin:5% auto;
-  font-size:50px;
+  font-size: 170%;
   font-weight: 800;
   text-align: center;
   padding:2%;
   color:rgb(43, 255, 255);
 }
 
+@media only screen and(max-width: 900px){
+  .stitle{
+    /* box-sizing: border-box; */
+    font-family: 'Shadows Into Light', cursive;
+  
+    width:50%;
+    margin:5% auto;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    padding:2%;
+    color:rgb(43, 255, 255);
+  }
+}
 
 button{
   border-radius:50%;
@@ -67,9 +103,12 @@ width: 50%;
 }
 
 .DO{
-  height:300px;
-  width:98px;
-  background:linear-gradient(45deg,red,white);
+  height:290px;
+  width: 13%;
+  
+  margin-bottom: 80px;
+  /* background:linear-gradient(45deg,#ED5564,white); */
+  background: #ED5564;
   border-radius: 4%;
   display:block;
   float:left;
@@ -78,8 +117,9 @@ width: 50%;
 .RE{
   margin-top:10px;
   height:280px;
-  width:97px;
-  background:linear-gradient(45deg,green,white);
+  width: 13%;
+  /* background:linear-gradient(45deg,#FFCE54,white); */
+  background: #FFCE54;
   border-radius: 4%;
   display:block;
   float:left;
@@ -89,8 +129,9 @@ width: 50%;
 .MI{
   margin-top:15px;
   height:270px;
-  width:96px;
-  background:linear-gradient(45deg,yellow,white);
+  width: 13%;
+  /* background:linear-gradient(45deg,#A0D568,white); */
+  background: #A0D568;
   border-radius: 4%;
   display:block;
   float:left;
@@ -100,8 +141,9 @@ width: 50%;
 .FA{
   margin-top:20px;
   height:260px;
-  width:95px;
-  background:linear-gradient(45deg,yellow,white);
+  width: 13%;
+  /* background:linear-gradient(45deg,#49da9a,white); */
+  background: #49da9a;
   border-radius: 4%;
   display:block;
   float:left;
@@ -110,8 +152,9 @@ width: 50%;
 .SO{
   margin-top:25px;
   height:250px;
-  width:94px;
-  background:linear-gradient(45deg,yellow,white);
+  width: 13%;
+  /* background:linear-gradient(45deg,#4FC1E8,white); */
+  background: #4FC1E8;
   border-radius: 4%;
   display:block;
   float:left;
@@ -121,8 +164,9 @@ width: 50%;
 .LA{
   margin-top:30px;
   height:240px;
-  width:93px;
-  background:linear-gradient(45deg,yellow,white);
+  width: 13%;
+  /* background:linear-gradient(45deg,#AC92EB,white); */
+  background: #4355db;
   border-radius: 4%;
   display:block;
   float:left;
@@ -132,8 +176,9 @@ width: 50%;
 .TI{
   margin-top:35px;
   height:230px;
-  width:92px;
-  background:linear-gradient(45deg,yellow,white);
+  width: 13%;
+  /* background:linear-gradient(45deg,yellow,white); */
+  background: #AC92EB;
   border-radius: 4%;
   display:block;
   float:left;
@@ -142,7 +187,89 @@ width: 50%;
 
 
 
-
+@media only screen and (max-width: 700px){
+  .DO{
+    height:250px;
+    width: 14%;
+    
+    margin-bottom: 80px;
+    /* background:linear-gradient(45deg,#ED5564,white); */
+    background: #ED5564;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  
+  }
+  .RE{
+    margin-top:10px;
+    height:240px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#FFCE54,white); */
+    background: #FFCE54;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  
+  }
+  
+  .MI{
+    margin-top:15px;
+    height:230px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#A0D568,white); */
+    background: #A0D568;
+    border-radius: 6px 6px 0 0;;
+    display:block;
+    float:left;
+  
+  }
+  
+  .FA{
+    margin-top:20px;
+    height:220px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#49da9a,white); */
+    background: #49da9a;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+  
+  .SO{
+    margin-top:25px;
+    height:210px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#4FC1E8,white); */
+    background: #4FC1E8;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+  
+  
+  .LA{
+    margin-top:30px;
+    height:200px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#AC92EB,white); */
+    background: #4355db;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+  
+  
+  .TI{
+    margin-top:35px;
+    height:190px;
+    width: 14%;
+    /* background:linear-gradient(45deg,yellow,white); */
+    background: #AC92EB;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+}
 
 
 
